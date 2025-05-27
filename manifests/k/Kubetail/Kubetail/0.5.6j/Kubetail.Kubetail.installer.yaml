@@ -1,0 +1,16 @@
+PackageIdentifier: Kubetail.Kubetail
+PackageVersion: 0.5.6j
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+  - RelativeFilePath: kubetail.exe
+    PortableCommandAlias: kubetail
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.5.6j/kubetail-windows-amd64.zip
+    InstallerSha256: 9B46E68F1533CD55544E5A77E19A90391631F4F4C69155A696982AC74BE94E2C
+  - Architecture: arm64
+    InstallerUrl: https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.5.6j/kubetail-windows-arm64.zip
+    InstallerSha256: 599432A13899E460D67FD33C828DB79AE76B72289A7DA747D788C17560F7BA3A
+ManifestType: installer
+ManifestVersion: 1.10.0
